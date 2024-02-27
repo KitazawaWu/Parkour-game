@@ -1,0 +1,688 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 32706 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/1077264/Desktop/MOVE/MOVEMENT T
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60872
+Successfully changed project path to: C:/Users/1077264/Desktop/MOVE/MOVEMENT T
+C:/Users/1077264/Desktop/MOVE/MOVEMENT T
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8052] Host "[IP] 10.28.3.78 [Port] 0 [Flags] 2 [Guid] 3997885143 [EditorId] 3997885143 [Version] 1048832 [Id] WindowsEditor(7,Cyp304dMSI-12) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8052] Host "[IP] 10.28.3.78 [Port] 0 [Flags] 2 [Guid] 3997885143 [EditorId] 3997885143 [Version] 1048832 [Id] WindowsEditor(7,Cyp304dMSI-12) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 6.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/1077264/Desktop/MOVE/MOVEMENT T/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12143 MB
+    Driver:   30.0.14.7288
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007338 seconds.
+- Loaded All Assemblies, in  0.302 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.252 seconds
+Domain Reload Profiling: 553ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (90ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (104ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (253ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (199ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.531 seconds
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.688 seconds
+Domain Reload Profiling: 1218ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (117ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (689ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (447ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.4 KB). Loaded Objects now: 3544.
+Memory consumption went from 122.6 MB to 122.6 MB.
+Total: 2.744500 ms (FindLiveObjects: 0.270700 ms CreateObjectMapping: 0.254200 ms MarkObjects: 2.142600 ms  DeleteObjects: 0.075300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4318.005337 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9e46a79261bcdb247860bdd2e4aad5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9e46a79261bcdb247860bdd2e4aad5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49704aae7216e3b6c5eab82e92d7e2f1') in 0.001927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 110.664207 seconds.
+  path: Assets/Dynamic Parkour System/DynamicParkourSystem_Documentation.pdf
+  artifactKey: Guid(dd007c982805cdd4e9454d57d5bf6493) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/DynamicParkourSystem_Documentation.pdf using Guid(dd007c982805cdd4e9454d57d5bf6493) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eeccf9871eb90df44fb97b29312fe141') in 0.060263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/Helpers/Camera/SwitchCameras.cs
+  artifactKey: Guid(ed866712f38956945a14a73346843786) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/Helpers/Camera/SwitchCameras.cs using Guid(ed866712f38956945a14a73346843786) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aad904e242c9219301d76f481dfe6292') in 0.026136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dynamic Parkour System/Resources/Materials/Prototype_512x512_Blue1.mat
+  artifactKey: Guid(663834164c6a04740aaa1b778249ce7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Resources/Materials/Prototype_512x512_Blue1.mat using Guid(663834164c6a04740aaa1b778249ce7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c32cbaa553d4943cff321444a996579') in 0.062888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Braced Hanging Idle.fbx
+  artifactKey: Guid(7019d098d7f988c45a83c1495edab55b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Braced Hanging Idle.fbx using Guid(7019d098d7f988c45a83c1495edab55b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '001a7e11c50c5855690a1fbb4799eaeb') in 0.053396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/ReachHigh.fbx
+  artifactKey: Guid(f64c8a8430b14cf4eb066d2fd4f487f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/ReachHigh.fbx using Guid(f64c8a8430b14cf4eb066d2fd4f487f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02522b989b0bc43965680753541c67f4') in 0.029587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/System Controllers/CameraController.cs
+  artifactKey: Guid(2ce077e73dad4e6459a2a7f99a5ce342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/System Controllers/CameraController.cs using Guid(2ce077e73dad4e6459a2a7f99a5ce342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3bd2a84db61c75f5179868b26d292917') in 0.009087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Run.fbx
+  artifactKey: Guid(f123b4e115ab0304180e14ea2d4bdae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Run.fbx using Guid(f123b4e115ab0304180e14ea2d4bdae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e4ff753eb50ed82701f29194d6a74c1') in 0.029321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Dynamic Parkour System/Model/Textures/Erika_Archer_Clothes_diffuse.png
+  artifactKey: Guid(b19c44fd4cb46d840a00f8d56f530f7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Textures/Erika_Archer_Clothes_diffuse.png using Guid(b19c44fd4cb46d840a00f8d56f530f7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80f4e0683c8efbc21b3c4d4fcc228b36') in 0.075802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dynamic Parkour System/Resources/ActionsConfig/VaultObstacle.asset
+  artifactKey: Guid(ead55ab0c580140449002324c6a9dcc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Resources/ActionsConfig/VaultObstacle.asset using Guid(ead55ab0c580140449002324c6a9dcc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53311514ccd491ec101e8b7d63f382e3') in 0.010250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/Vaulting Actions/VaultDown.cs
+  artifactKey: Guid(62431381596921040ac2e2047f996244) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/Vaulting Actions/VaultDown.cs using Guid(62431381596921040ac2e2047f996244) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efcb46b7b0bd922db1aaf0f1260f348f') in 0.008422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dynamic Parkour System/Resources/Climbing/GPoint.prefab
+  artifactKey: Guid(c9e6d30b089b8e548830d3a6e491426b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Resources/Climbing/GPoint.prefab using Guid(c9e6d30b089b8e548830d3a6e491426b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c0ed97846ca9adc93d9c5804c317a45') in 0.011711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/System Controllers/ThirdPersonController.cs
+  artifactKey: Guid(3983e0cb5dfc40445bc6676bb1f9c7b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/System Controllers/ThirdPersonController.cs using Guid(3983e0cb5dfc40445bc6676bb1f9c7b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a49e5107a0bf2751415e8824d59fc1c2') in 0.009275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/Vaulting Actions/VaultAction.cs
+  artifactKey: Guid(695b2ece045312549bf7d99fb0cd5a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/Vaulting Actions/VaultAction.cs using Guid(695b2ece045312549bf7d99fb0cd5a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0328cd16f148bdd639196bebd7fa2a74') in 0.010213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Braced Jump From Wall.fbx
+  artifactKey: Guid(afb9afd163a35af48ac298932912b8b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Braced Jump From Wall.fbx using Guid(afb9afd163a35af48ac298932912b8b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe2e364cec36145804ae68e2456b9a4b') in 0.031447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Braced Hang Climb.fbx
+  artifactKey: Guid(4aa0f404cfef9ef4695a2b437520c7be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Braced Hang Climb.fbx using Guid(4aa0f404cfef9ef4695a2b437520c7be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ff82ea6b484edc7b5549f30527dc6e4') in 0.035290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Dynamic Parkour System/Resources/Materials/prototype_512x512_yellow.png
+  artifactKey: Guid(ee12d2bc9f5c8554d97d5beb9dc4b275) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Resources/Materials/prototype_512x512_yellow.png using Guid(ee12d2bc9f5c8554d97d5beb9dc4b275) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '486bc071fcb5b602387a5c279aa3df26') in 0.033984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Freehang Climb.fbx
+  artifactKey: Guid(d190706ea5969b84c903ac23d4ae26ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Freehang Climb.fbx using Guid(d190706ea5969b84c903ac23d4ae26ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5885ebb82d8aa9af5526835cc75c2e2b') in 0.033805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/Vaulting Actions/VaultSlide.cs
+  artifactKey: Guid(6943c6208ba8c074a95c385223fff476) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/Vaulting Actions/VaultSlide.cs using Guid(6943c6208ba8c074a95c385223fff476) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b24afcd9c6ab355a90a6d8ebbc28925') in 0.008438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/Helpers/Action Base Scripts/ActionVaultReach.cs
+  artifactKey: Guid(4208272f8463a734288fdae6e0993701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/Helpers/Action Base Scripts/ActionVaultReach.cs using Guid(4208272f8463a734288fdae6e0993701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea54ae3cf6cdd02c594d84c19f633455') in 0.011349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e66638af79a31b846ebcb21f9f6d403b') in 0.008004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Idle To Sprint.fbx
+  artifactKey: Guid(ac61465a13d9cde4a8ae02f87aba2407) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Idle To Sprint.fbx using Guid(ac61465a13d9cde4a8ae02f87aba2407) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6142c8036a42ef130a862016bc4655e8') in 0.036731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Jog Forward.fbx
+  artifactKey: Guid(c0f7043c008a6244e9085879a036d2ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Jog Forward.fbx using Guid(c0f7043c008a6244e9085879a036d2ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c26c00a4cb8c7da09d33c7bef2d860b4') in 0.031953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Braced Hang Hop Up.fbx
+  artifactKey: Guid(579f039d1842c8c4eb988a27cbedccb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Braced Hang Hop Up.fbx using Guid(579f039d1842c8c4eb988a27cbedccb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21440689573ab654ce6d06f2c9b18842') in 0.033337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/JumpingDown.fbx
+  artifactKey: Guid(fa38429fba79f2f4dbb20631ba387a39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/JumpingDown.fbx using Guid(fa38429fba79f2f4dbb20631ba387a39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abcd320213fbc8675abae2c02a472c17') in 0.030992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/Helpers/Climbing/HandlePointConnection.cs
+  artifactKey: Guid(bbde6facfaf11e14489f9dbe3b473850) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/Helpers/Climbing/HandlePointConnection.cs using Guid(bbde6facfaf11e14489f9dbe3b473850) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '602a3082f9d865b11fe6b0767e95d17c') in 0.010491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/Helpers/Climbing/Point.cs
+  artifactKey: Guid(91811931f6c25da43a7a9abf91921bdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/Helpers/Climbing/Point.cs using Guid(91811931f6c25da43a7a9abf91921bdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a096f1345f349cafdc9cd0c8a31a7b3e') in 0.009909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Hanging Idle.fbx
+  artifactKey: Guid(12465e2e044fa8646b3119981d45a0de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Hanging Idle.fbx using Guid(12465e2e044fa8646b3119981d45a0de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '082de7b887f6eec286826e44008d5a3a') in 0.029882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Braced Hang Right Shimmy.fbx
+  artifactKey: Guid(6409de9932b85574889c1d8bd705f759) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Braced Hang Right Shimmy.fbx using Guid(6409de9932b85574889c1d8bd705f759) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e9700545900655099ae8df4709bb5f5') in 0.038523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dynamic Parkour System/Prefabs/Environment/Climb/Wall.prefab
+  artifactKey: Guid(1af7569c050a7f543a2b25f3d48af44b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Prefabs/Environment/Climb/Wall.prefab using Guid(1af7569c050a7f543a2b25f3d48af44b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9bf6f3b9ffd8dd2613023147566dc0c') in 0.020188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Braced Hang Hop Right.fbx
+  artifactKey: Guid(2187e237f6c52f843b9161bbc46fcbef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Braced Hang Hop Right.fbx using Guid(2187e237f6c52f843b9161bbc46fcbef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8bf3cc151826eedb20a36e29dec7660') in 0.036253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dynamic Parkour System/Resources/Camera/Camera Aux Blends.asset
+  artifactKey: Guid(be2e45ce9ff8e6345b320d72c7d28ce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Resources/Camera/Camera Aux Blends.asset using Guid(be2e45ce9ff8e6345b320d72c7d28ce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f80274e7d7e4dcd26cf1c2efa97bc252') in 0.009063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dynamic Parkour System/Scenes/Testing/Lightmap-0_comp_light.exr
+  artifactKey: Guid(eb081241f16cf5a49b63f212d30d4808) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scenes/Testing/Lightmap-0_comp_light.exr using Guid(eb081241f16cf5a49b63f212d30d4808) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bdd1df7a2d3a946f35a06bcd99f2378f') in 0.030126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/System Controllers/VaultingController.cs
+  artifactKey: Guid(7b0fa37f735bf1b46b01f94365ed169e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/System Controllers/VaultingController.cs using Guid(7b0fa37f735bf1b46b01f94365ed169e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ac042f8d8fba1682c1713dc651ec7aa') in 0.009881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Idle To Braced Hang.fbx
+  artifactKey: Guid(a27a5c92e4aff5f4c986981c22e2e9c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Idle To Braced Hang.fbx using Guid(a27a5c92e4aff5f4c986981c22e2e9c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45d7db552890b18656eb784e6fb14b34') in 0.031327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Braced Hang Hop Down.fbx
+  artifactKey: Guid(e8ce7354e4fc224418dd8daaa7defde7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Braced Hang Hop Down.fbx using Guid(e8ce7354e4fc224418dd8daaa7defde7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60e7594e5c393e1c1b78420049c28b85') in 0.029916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dynamic Parkour System/Prefabs/Environment/Vault/Obstacle.prefab
+  artifactKey: Guid(6304cf5db034ddc4999895035f7568a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Prefabs/Environment/Vault/Obstacle.prefab using Guid(6304cf5db034ddc4999895035f7568a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c48ab3b53fcc4d31a8ebcf30a31efd78') in 0.015464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dynamic Parkour System/Prefabs/Environment/Vault/Box.prefab
+  artifactKey: Guid(6fe6945eae55ff347ac93ffd3e398db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Prefabs/Environment/Vault/Box.prefab using Guid(6fe6945eae55ff347ac93ffd3e398db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52a16179b968e1102244f66e34d1106c') in 0.013874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/System Controllers/MovementCharacterController.cs
+  artifactKey: Guid(93e4e8fc79c695540bc086f95f326b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/System Controllers/MovementCharacterController.cs using Guid(93e4e8fc79c695540bc086f95f326b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e55d859693b8b5e42e69b54f955d091') in 0.010645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetStoreTools/Editor/AssetStoreTools.dll
+  artifactKey: Guid(e6c40bf0eb3fa3645aab7189973412db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AssetStoreTools/Editor/AssetStoreTools.dll using Guid(e6c40bf0eb3fa3645aab7189973412db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6347f619da59f27bddbd894b7a8e9327') in 0.015581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Jumping Crouch.fbx
+  artifactKey: Guid(ccdda45c33434f041afca9d36541c8a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Jumping Crouch.fbx using Guid(ccdda45c33434f041afca9d36541c8a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c05a868cf5f6aaa27f1ad96501e0fcb') in 0.028712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dynamic Parkour System/Scenes/Testing/ReflectionProbe-0.exr
+  artifactKey: Guid(8faf7aeb36b26754bbe90ac405286edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scenes/Testing/ReflectionProbe-0.exr using Guid(8faf7aeb36b26754bbe90ac405286edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61a02f6a7c6be99c787f643f1b712add') in 0.028267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/Helpers/Player/PlayerControls.inputactions
+  artifactKey: Guid(92b096a3ca2aaaf4793e33b3389b03a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/Helpers/Player/PlayerControls.inputactions using Guid(92b096a3ca2aaaf4793e33b3389b03a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c033179b774a77b7e4d0132f40f6df23') in 0.007374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dynamic Parkour System/Prefabs/Environment/Vault/Slide.prefab
+  artifactKey: Guid(858c4dc6c208bf646b06b182ea18d1cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Prefabs/Environment/Vault/Slide.prefab using Guid(858c4dc6c208bf646b06b182ea18d1cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc08859c385104e68d84eb5d24de3df3') in 0.012265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dynamic Parkour System/LICENSE
+  artifactKey: Guid(a46fb0828b94f3f4a81b7ce8e2dcd59b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/LICENSE using Guid(a46fb0828b94f3f4a81b7ce8e2dcd59b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c894a61fa9eba3204ce8eeea02d1fad') in 0.007564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/Helpers/Climbing/DrawLine.cs
+  artifactKey: Guid(afda61140f03d8d4bb1a175bcb1edc60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/Helpers/Climbing/DrawLine.cs using Guid(afda61140f03d8d4bb1a175bcb1edc60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'decb74d2ebd9d0f89738c99e4e302da5') in 0.009822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/VaultFence.fbx
+  artifactKey: Guid(0c012699e8b1f064ab54e8d0c62e4436) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/VaultFence.fbx using Guid(0c012699e8b1f064ab54e8d0c62e4436) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e367b8ce857ad4bd3c8b4dcfa65740be') in 0.031746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Falling To Landing.fbx
+  artifactKey: Guid(1e414db9b5cc58442ac3faece8d562e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Falling To Landing.fbx using Guid(1e414db9b5cc58442ac3faece8d562e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca29bc06e5cf0fdbafad89b6d7f479ad') in 0.034369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 142
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/Helpers/Climbing/DrawLineIndividual.cs
+  artifactKey: Guid(b4ec10ecc4385674ca83ee7fd88e43fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/Helpers/Climbing/DrawLineIndividual.cs using Guid(b4ec10ecc4385674ca83ee7fd88e43fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c717e6c8d0edf1bf71b005f8fd47965c') in 0.009995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Land To Run Forward.fbx
+  artifactKey: Guid(5ee4c7b020b1e2442af166cbdb589b1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Land To Run Forward.fbx using Guid(5ee4c7b020b1e2442af166cbdb589b1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '902e243491a048767329d99c46e3c0de') in 0.038356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dynamic Parkour System/Prefabs/Environment/Jump/Big Pole.prefab
+  artifactKey: Guid(869b9ddce2eaece4a9269b41d907ace5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Prefabs/Environment/Jump/Big Pole.prefab using Guid(869b9ddce2eaece4a9269b41d907ace5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93edf974802e47a22ba79000091511ef') in 0.016852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/System Controllers/ClimbController.cs
+  artifactKey: Guid(4c149647432e0594ba0d2332dc9f41ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/System Controllers/ClimbController.cs using Guid(4c149647432e0594ba0d2332dc9f41ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e3f5462281be2fe23e08747fbde4756') in 0.009917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/Vaulting Actions/VaultOver.cs
+  artifactKey: Guid(7edd095be0dd99240ab695c975c5cf8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/Vaulting Actions/VaultOver.cs using Guid(7edd095be0dd99240ab695c975c5cf8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82308376f68256e10050787168379eb2') in 0.010307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dynamic Parkour System/Scripts/Helpers/Action Base Scripts/Action.cs
+  artifactKey: Guid(7e05288b69d3a594e8bb40243ac996b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Scripts/Helpers/Action Base Scripts/Action.cs using Guid(7e05288b69d3a594e8bb40243ac996b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c6d232ee68a099edbb253d0381748bd') in 0.010193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Dynamic Parkour System/Resources/ActionsConfig/VaultReach.asset
+  artifactKey: Guid(4202132ad870c4b48ab10ed4ef80756c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Resources/ActionsConfig/VaultReach.asset using Guid(4202132ad870c4b48ab10ed4ef80756c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0861218288877f363686116ffcfec263') in 0.007667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dynamic Parkour System/Model/Animations/Braced To Free Hang.fbx
+  artifactKey: Guid(cde604d446ef74a4b8c4cd3f311b469b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dynamic Parkour System/Model/Animations/Braced To Free Hang.fbx using Guid(cde604d446ef74a4b8c4cd3f311b469b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d0cb89b09afa959208006f4ab3228d9') in 0.040514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
